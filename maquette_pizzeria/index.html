@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div id="imgHeader">
+            <div>
+                <h1>THIN<br>CRUST PIZZA</h1>
+                <button>Let me see the menu</button>
+            </div>
+            <div class="horaires">Open from 10AM to 12PM</div>
+        </div>
+    </header>
+    <main>
+        <!---------------------MENU--------------------->
+        <section id="menu">
+            <h2>The Menu</h2>
+            <div id="choice">
+                <div class="select">
+                    <div>Pizza</div>
+                    <div>Salads</div>
+                    <div>Starter</div>
+                </div>
+                <div id="dishes">
+                    <div>
+                        <h5>Margherita</h5>
+                        <p class="prices">$12.50</p>
+                        <p class="description">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                    </div>
+                    <div>
+                        <h5>Formaggio</h5>
+                        <p class="prices">$15.50</p>
+                        <p class="description">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg</p>
+                    </div>
+                    <div>
+                        <h5>Chicken</h5>
+                        <p class="prices">$17.00</p>
+                        <p class="description">Fresh tomatoes, mozzarella, chicken, onions</p>
+                    </div>
+                    <div>
+                        <h5>Pineapple'O'Clock</h5>
+                        <p class="prices">$16.50</p>
+                        <p class="description">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                    </div>
+                    <div>
+                        <h5>Meat Town <span id="hot">Hot!</span></h5>
+                        <p class="prices">$20.00</p>
+                        <p class="description">Fresh tomatoes, mozzarella, hot pepperoni, hot sausage, beef, chicken</p>
+                    </div>
+                    <div>
+                        <h5>Parma <span id="new">New</span></h5>
+                        <p class="prices">$21.50</p>
+                        <p class="description">Fresh tomatoes, mozzarella, parma, bacon, frh arugula</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------ABOUT--------------------->
+        <section id="about">
+            <h2>About</h2>
+            <div class="descriptionAbout">
+                <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quia similique distinctio accusamus adipisci. Tempore praesentium repellat
+                    nostrum.
+                    Quas ea quam nemo nesciunt, odio nihil dolor, dolore reprehenderit deleniti ab consequuntur?</p>
+                <div id="chef">
+                    <span>The Chef ?</span> Mr. Italiano himself
+                    <img src="assets/img/chef.jpg" alt="Mr. Italiano">
+                </div>
+                <p>We are proud of our interiors.</p>
+            </div>
+            <div>
+                <img id="restaurant" src="assets/img/onepage_restaurant.jpg" alt="Restaurant interior">
+            </div>
+            <!----------------------ABOUT----------------------->
+            <h3>Opening Hours</h3>
+            <div id="horaires">
+                <div id="date">
+                    <div>Mon & Tue CLOSED</div>
+                    <div>Wednesday 10.00 - 24.00</div>
+                    <div>Thursday 10.00 - 24.00</div>
+                </div>
+                <div id="date">
+                    <div>Friday 10.00 - 12.00</div>
+                    <div>Saturday 10.00 - 23.00</div>
+                    <div>Sunday CLOSED</div>
+                </div>
+            </div>
+        </section>
+        <!-- ------------------MAP----------------------- -->
+            <img id="map" src="assets/img/map.jpg" alt="Restaurant position">
+        <!-- -------------------CONTACT------------------ -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div id="text">
+                <p>Find us at some address at some place or call us at 05050515-122330</p>
+                <p><span id="fyi">FYI!</span>We offer full-service catering for any event, large or small. We understand
+                    your needs and we will cater the food to satisfy the biggest criteria of them all, both look and
+                    taste.</p>
+            </div>
+            <h4><span>Reserve</span> a table, ask for today's special or just send us a message</h4>
+            <div id="form">   
+                <form>
+                    <input type="text" name="name" id="" placeholder="Name"><br>
+                    <input type="number" name="number" id="" placeholder="How many people"><br>
+                    <input type="date" name="date" id=""><br>
+                    <textarea rows="1" placeholder="Message\Special requirements"></textarea><br>
+                    <input id="button" type="submit" value="SEND MESSAGE">
+                </form>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div>Powered by footer.com</div>
+    </footer>
+</body>
+</html>
